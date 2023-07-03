@@ -1,4 +1,4 @@
-/*const inputEl = document.getElementById("input");
+const inputEl = document.getElementById("input");
 const infoTextEl = document.getElementById("info-text");
 const meaningContainerEl = document.getElementById("meaning-container");
 const titleEl = document.getElementById("title");
@@ -39,5 +39,5 @@ window.onload = function() {
       fetchAPI(e.target.value);
     }
   });
-};*/
+};
 
