@@ -38,5 +38,6 @@ window.onload=function(){
     if (e.target.value && e.key === "Enter") {
       fetchAPI(e.target.value);
     }
-  });
+  }
+});
 
