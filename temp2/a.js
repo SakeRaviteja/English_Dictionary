@@ -33,11 +33,11 @@ async function fetchAPI(word) {
   }
 }
 
-window.onload=function(){
+window.onload = function() {
   inputEl.addEventListener("keyup", (e) => {
     if (e.target.value && e.key === "Enter") {
       fetchAPI(e.target.value);
     }
-  }
-});
+  });
+};
 
