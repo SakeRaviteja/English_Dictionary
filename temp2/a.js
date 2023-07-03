@@ -39,4 +39,4 @@ window.onload=function(){
       fetchAPI(e.target.value);
     }
   });
-});
+
